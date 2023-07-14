@@ -78,6 +78,7 @@ TARGET_BOARD_PLATFORM := mt6768
 
 # Camera
 PRODUCT_PACKAGES += \
+    Aperture \
     android.hardware.camera.common@1.0.vendor \
     android.hardware.camera.device@3.3.vendor \
     android.hardware.camera.device@3.4.vendor \
