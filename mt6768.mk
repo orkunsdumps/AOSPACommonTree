@@ -70,6 +70,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth@1.1.vendor
 
+# Board Platform
+TARGET_BOARD_PLATFORM := mt6768
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
