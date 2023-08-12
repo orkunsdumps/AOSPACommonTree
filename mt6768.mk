@@ -377,6 +377,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    packages/modules/Bluetooth/android/app \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/mediatek \
