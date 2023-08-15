@@ -252,6 +252,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
+    AOSPAFrameworksMT6768 \
     CarrierConfigOverlayMT6768 \
     FrameworksResOverlayMT6768 \
     SettingsOverlayMT6768 \
