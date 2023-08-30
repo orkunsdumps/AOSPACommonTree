@@ -1,10 +1,29 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePackages
-LOCAL_SRC_FILES := false
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_OVERRIDES_PACKAGES := MatLog Jelly ExactCalculator Eleven Etar Gallery2 Recorder DeskClock
+LOCAL_MODULE_TAGS := optional
+LOCAL_OVERRIDES_PACKAGES := \
+          AndroidAutoStubPrebuilt \
+          AmbientSensePrebuilt \
+          CalendarGoogle \
+		  Chrome64 \
+          Drive \
+          MaestroPrebuilt \
+          Maps \
+          Gmail2 \
+		  GoogleCameraGo \
+		  PersonalSafety \
+		  Photos \
+          RecorderPrebuilt \
+          SafetyHubPrebuilt \
+          Snap \
+          Turbo \
+          TipsPrebuilt \
+		  Velvet \
+          YouTube \
+
 LOCAL_UNINSTALLABLE_MODULE := true
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := /dev/null
 include $(BUILD_PREBUILT)
